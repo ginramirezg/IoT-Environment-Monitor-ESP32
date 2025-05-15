@@ -1,18 +1,25 @@
-# Sistema de Monitoreo Ambiental con ESP32
+# Sistema de Detección de Incendios con ESP32
 
-Este proyecto utiliza un microcontrolador **ESP32** para monitorizar variables ambientales mediante sensores y gestionar periféricos de salida (LED RGB y buzzer). Fue desarrollado como proyecto académico por **Gina Andrea Ramírez Guerrero** y **Jorge Ferrero de Lara**.
+Este proyecto implementa un **sistema de alarma de incendios** utilizando un microcontrolador **ESP32**. Está diseñado para detectar condiciones anómalas como la presencia de una llama o altas temperaturas mediante sensores ambientales, y emitir alertas visuales y sonoras. Fue desarrollado como proyecto académico por **Gina Andrea Ramírez Guerrero** y **Jorge Ferrero de Lara**.
 
 ## Objetivo
-Combinar la monitorización ambiental básica (luz y temperatura) con la gestión eficiente de energía mediante el modo de *deep sleep* del ESP32.
+
+Desarrollar un sistema embebido de bajo costo y bajo consumo capaz de:
+- Detectar condiciones de riesgo de incendio.
+- Alertar mediante un **buzzer** y un **LED RGB**.
+- Ahorrar energía activando el modo *deep sleep* automáticamente.
 
 ## Funcionalidades
 
-- Detectar niveles de **luz** y **temperatura**:
-  - Presencia de llama o niveles de oscuridad.
-  - Indicadores mediante colores del **LED RGB** y activación del **buzzer**.
-- Activación del **modo de bajo consumo** mediante botón externo.
-  - El sistema entra en *deep sleep* y se reinicia automáticamente tras 10 segundos.
-- Visualización de datos a través de mensajes de depuración en consola.
+- **Monitoreo ambiental** mediante sensores:
+  - Sensor de luz (para detectar presencia de llama o cambios bruscos de iluminación).
+  - Termoresistor (para detectar aumento de temperatura).
+- **Indicadores de alarma**:
+  - **LED RGB** cambia de color según la severidad.
+  - **Buzzer** se activa ante condiciones críticas.
+- **Gestión de energía**:
+  - Entrada en modo *deep sleep* al presionar un botón externo.
+  - Reinicio automático después de 10 segundos.
 
 ## Componentes integrados
 
