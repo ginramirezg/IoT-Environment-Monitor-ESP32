@@ -28,7 +28,7 @@ Combinar la monitorización ambiental básica (luz y temperatura) con la gestió
 
 ## Tecnologías utilizadas
 
-- C
+- C/C++
 - Plataforma Arduino
 - Arduino IDE
 - ESP32-S3
