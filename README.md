@@ -26,7 +26,7 @@ Combinar la monitorización ambiental básica (luz y temperatura) con la gestió
 | Buzzer                 | Indicador auditivo                  |
 
 
-## 🛠️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - C
 - Plataforma Arduino
@@ -34,9 +34,9 @@ Combinar la monitorización ambiental básica (luz y temperatura) con la gestió
 - ESP32-S3
 - Comunicación serie UART para depuración
 
-## 🧪 Estado del proyecto
+## Estado del proyecto
 
-✅ Finalizado – Proyecto académico presentado satisfactoriamente.
+Finalizado – Proyecto académico presentado satisfactoriamente.
 
 > Desarrollado por Gina Andrea Ramírez Guerrero y Jorge Ferrero de Lara.
 
